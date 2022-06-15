@@ -13,3 +13,10 @@ var loveScore = math.random();
 loveScore = loveScore*100;
 loveScore = math.floor(loveScore)+1;
 alert("your love score is " + loveScore + "%");
+
+//controlstatement
+
+if (track == "clear"){
+    gostraight();
+   } else {
+    turnright();} 
