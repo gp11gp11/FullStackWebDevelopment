@@ -111,7 +111,7 @@ function function_Name(){
 //Function part 2: Parameter and Arguments
 /*
 function function_Name(parameter){
- //Parameter refer to variable, Argument refer to actual value
+ //Parameter refer to variable or identifier, Argument refer to actual value or literals
 }
 function_Name(argument);
 */
