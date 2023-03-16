@@ -1,3 +1,4 @@
+used to iterate while in a state
 // syntax
 var i = 1;
 
