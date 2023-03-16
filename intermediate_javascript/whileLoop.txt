@@ -1,0 +1,36 @@
+// syntax
+var i = 1;
+
+while(i<3){
+    console.log(i);
+    i++;
+
+}
+
+// fizz buzz
+
+ar arr = [];
+
+var count = 0;
+
+function fizzBizz() {
+    
+    while(count<=100){
+        count += 1;
+   
+
+        if (count%3==0){
+            arr.push("fizz");
+        }else if(count%5==0){
+            arr.push("bizz");
+        }else {
+            arr.push(count);
+        }
+    }
+
+    console.log(arr);
+    
+    
+    
+    
+}
