@@ -1,0 +1,30 @@
+//syntax
+  for (i=0; i<2; i++){
+    
+  }
+
+//Example
+
+// fizz buzz
+
+ar arr = [];
+
+
+
+function fizzBizz() {
+    
+    for(count=0; count<100; count++){
+        
+   
+
+        if (count%3==0){
+            arr.push("fizz");
+        }else if(count%5==0){
+            arr.push("bizz");
+        }else {
+            arr.push(count);
+        }
+    }
+
+    console.log(arr);
+    
