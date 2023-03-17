@@ -1,5 +1,23 @@
+<hr size = "3" noshade ><!--htmlelement and attribute-->
 <h1>Look for tag</h1>
 <br>
 <h3>in</h3>
-<br>
-<h2>Mdm<br>w3school<br>devdocs.io</h2>
+<br><!--self closing tag -->
+<h2>Mdm<br>w3school<br>devdocs.io<br>web.archive.org</h2>
+<hr size = "3" noshade >
+
+<!-- html boilerplate -->
+
+<! DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My website</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+    </body>
+
+</html>
+
+in vscode !+enter to get the boilerplate
