@@ -3,7 +3,7 @@
 <br>
 <h3>in</h3>
 <br><!--self closing tag -->
-<h2>Mdm<br>w3school<br>devdocs.io<br>web.archive.org</h2>
+<h2>Mdm<br>w3school(command +f)<br>devdocs.io<br>web.archive.org</h2>
 <hr size = "3" noshade >
 
 <!-- html boilerplate -->
