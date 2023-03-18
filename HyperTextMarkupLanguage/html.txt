@@ -21,3 +21,5 @@
 </html>
 
 in vscode !+enter to get the boilerplate
+
+INlline css > internal css> external css>
