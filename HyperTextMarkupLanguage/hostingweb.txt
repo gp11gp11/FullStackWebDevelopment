@@ -1,0 +1,2 @@
+Free hosting 
+github->create repository containing website file-> setting-> pages-> source:main
