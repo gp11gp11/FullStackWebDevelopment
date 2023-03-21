@@ -42,14 +42,22 @@ p {
     font-weight: bold;
     font-size: 3rem;
 }
+.navbar-brand:hover{
+    color: #8f8f8f;
+}
 .nav-item {
     color: #FFFFFF;
     padding: 0 18px;
 }
 .nav-link {
+    color: #fff;
     font-size: 1.2rem;
     font-family: "Montserrat-Light";
 }
+.nav-link:hover{
+    color: #8f8f8f;
+}
+
 
 /* Download buttons */
 
@@ -131,4 +139,30 @@ Title image */
         position:static;
         transform: rotate(0);
     }
+}
+
+/* Call action section */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+
+}
+.cta-item {
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1;
+    color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* Footer  */
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon{
+    padding: 20px 10px;
 }
