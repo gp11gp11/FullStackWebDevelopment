@@ -1,0 +1,20 @@
+/* mobilefriendlytest-website */
+
+
+/* code inside only work if the print statement is validated */
+
+@media print { 
+    h1 {
+        color: red;
+    }
+
+}
+/* 
+media query template
+
+@media<type><feature> */
+
+@media screen (min-width:900px) {
+    // change something
+
+}
