@@ -14,7 +14,7 @@ media query template
 
 @media<type><feature> */
 
-@media screen (min-width:900px) {
+/* @media screen (min-width:900px) and (max-width:1200px) {
     // change something
 
-}
+} */
