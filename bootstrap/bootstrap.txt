@@ -4,5 +4,6 @@ mockup
 dribble.com\
 sneakpeakit.com
 balsamiq.com
+bootsnipp.com
 nav element similar to div
 toggler - 

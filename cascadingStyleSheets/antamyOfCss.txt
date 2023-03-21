@@ -8,3 +8,4 @@ id must be unique for a element
 class can be same 
 cannot have more than 1 id for an element, wherelse class can be
 id>class>tag
+
