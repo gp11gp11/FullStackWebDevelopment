@@ -1,0 +1,36 @@
+web design principle
+
+-colour theory
+-user interface design
+-typography
+-user experience design
+
+*Colour theory
+
+search"color mode"
+analogous color-take opposite color in the wheel to get attraction eles take adjacent
+colorhunt.co
+liebe brand
+
+*typography
+typeface
+serif-commonly used
+readability, attractive, modern, old, traditional - based on it font selected 
+
+*user interface design
+
+apply hierarchy
+layout -length of line is an example - 
+alinment
+white space -empty space
+audience 
+
+*user experience
+(technical side)
+simplicity
+consistent
+reading pattern - f pattern or z pattern
+all platform design - consider all device
+
+dailyui.com
+canva.com
