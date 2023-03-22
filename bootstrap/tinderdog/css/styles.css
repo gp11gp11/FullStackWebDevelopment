@@ -1,20 +1,19 @@
 
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
-h1 {
-    font-family: "Montserrat-Black";
-    font-size: 4rem;
-    line-height: 1;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+    
 }
 h2 {
-    font-family: "Montserrat-Bold";
     font-size: 3rem;
     line-height: 1.5;
     padding: 0 15% ;
 }
 h3 {
-    font-family: "Montserrat-Bold";
+    
 }
 p {
     color: #8f8f8f;
@@ -30,6 +29,15 @@ p {
     background-color: #ff4c68;
     color: #fff;
     padding-bottom: 10%;
+    text-align: left;
+}
+  
+/* Heading */
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1;
+
 }
 
 /* Navigation bar */
@@ -70,10 +78,7 @@ Title image */
 .title-image {
     width: 60%;
     transform: rotate(20deg);
-    position: absolute;
-   
-    
-    
+    position: absolute;   
 }
 
 /* feature section */
@@ -87,7 +92,6 @@ Title image */
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 .icon {
@@ -101,7 +105,6 @@ Title image */
 /* Testimonials section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
     padding: 5%;
@@ -113,7 +116,6 @@ Title image */
 
 #press {
     background-color: #ef8172;
-    text-align: center; 
     padding-bottom: 3%;
 }
 .press-logo {
@@ -133,7 +135,6 @@ Title image */
 
 @media (max-width: 1028px){
     #title{
-        text-align: center;
     }
     .title-image{
         position:static;
@@ -145,7 +146,7 @@ Title image */
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
+    
 
 }
 .cta-item {
