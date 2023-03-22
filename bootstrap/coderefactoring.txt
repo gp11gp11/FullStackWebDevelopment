@@ -1,0 +1,21 @@
+Code refactoring
+
+1.reading
+2.modularity
+3.efficiency
+4.length
+
+Multiple selector
+selector1, selector2 {
+
+}
+
+Hierarchical selector {
+
+}
+eg:
+div .container-fluid
+    h1 #title
+    hello world
+
+.container-fluid #title {color: red;}//hierarchi read from right to left// work only parent child situation
