@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="/Volumes/external_ssd/myProjects/fullStackDevelopment/FullStackWebDevelopment/Document Object Model/styles.css">
 </head>
 <body>
-    <h1 id="title">Hello</h1>
+    <h1 id="title"><strong>hello</strong></h1>
     <input type="checkbox">
     <button class="button">Click me</button>
     <a href="www.yahoo.com">yahoo</a>
@@ -114,6 +114,33 @@ document.querySelectorAll("#list .item")[2];
 <li class=​"item">​…​</li>​::marker​"third"</li>​
 document.querySelectorAll("#list .item")[2].style.color="blue";
 'blue'
+
+document.querySelector("button").style.backgroundColor = "yellow";//w3school
+'yellow'
+
+document.querySelector("button").classList.add("invisibility");
+undefined
+document.querySelector("button").classList.add("invisible");
+undefined
+document.querySelector("button").classList.remove("invisible");
+undefined
+document.querySelector("button").classList.toggle("invisible");
+true
+document.querySelector("button").classList.toggle("invisible");
+false
+
+document.querySelector("h1").classList.add("huge");
+
+document.querySelector("h1").innerHTML;
+'<strong>hello</strong>'
+document.querySelector("h1").textContent;
+'hello'
+document.querySelector("h1").textContent = "bye";
+'bye'
+document.querySelector("h1").innerHTML = "<em>Good bye</em>";
+'<em>Good bye</em>'
+document.querySelector("h1").innerHTML = <em>Good bye</em>;
+VM3743:1 Uncaught SyntaxError: Unexpected token '<'
 -->
 
 method can be called by an object
