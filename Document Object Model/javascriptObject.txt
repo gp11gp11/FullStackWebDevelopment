@@ -3,7 +3,14 @@ var bellboy = {
     name: "jimmy",
     age: 19,
     hasWorkPermit: true;
-    languages: ["Malayalam","English"]
+    languages: ["Malayalam","English"],
+    moveSuitcase:  funciton() {
+    alert("may i take your suitcase);
+    pickUpSuitCase();
+    move();
+ }
+
+
 }
  
 Constructor Function:
@@ -12,8 +19,25 @@ function BellBoy (name, age, hasWorkPermit, languages) {// funciton name must be
     this.age = age;
     this.hasWorkPermit = hasWorkPermit;
     this.languages = languages;
+    this.moveSuitcase= funciton() {
+        alert("may i take your suitcase);
+        pickUpSuitCase();
+        move();
+    }
 }
 
 Initialise object:
 
 var bellboy = new BellBoy("Jimmy", 19, true, ["Malayalam","English"]);
+
+Methods:
+
+ funciton moveSuitcase {
+    alert("may i take your suitcase);
+    pickUpSuitCase();
+    move();
+ }
+
+ call Method:
+
+bellboy.moveSuitcase();
