@@ -1,0 +1,14 @@
+how to incorporate jQuery into websites
+
+use google CDN 
+
+jQuery("h1")or $("h1")- jQuery used instead of document.queryselector
+
+minifier.org - minimize js and css
+
+
+selecting elements with jquery and manupulating styles with jQuery:
+ Callback function to check the document are found before going through the code
+    $(document).ready(function(){ 
+    $("h1").css("color","red");
+    });
