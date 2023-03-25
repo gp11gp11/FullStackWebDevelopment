@@ -8,9 +8,22 @@
 // Added eventlistner to button to get noticed when clicked
 var noOfDrumButons = document.querySelectorAll(".drum").length;
 
+ // Adding animation when clicked
+ function buttonAnimation(currentKey) {
+    var activeButton = document.querySelector("."+ currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout (function(){
+        activeButton.classList.remove("pressed");
+    },100);
+}
+
+
+
+
 for(var i = 0; i<noOfDrumButons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function ()  {//adding eventlistner to each button
     var buttonInnerHtml = this.innerHTML;
+    buttonAnimation(buttonInnerHtml);
 
     switch(buttonInnerHtml) {
         case "w":
@@ -47,11 +60,13 @@ for(var i = 0; i<noOfDrumButons; i++) {
     }
 
 } );
+}
 
 // Added eventlistner to website to get noticed when key is pressed
 
     document.addEventListener("keypress", function() {
         var keyPressed = event.key;
+        buttonAnimation(keyPressed);
 
         switch(keyPressed) {
             case "w":
@@ -89,15 +104,6 @@ for(var i = 0; i<noOfDrumButons; i++) {
 
     } );
     
-}
 
 
 
-// template
-// $0.addEventListener(input1,input2);
-
-// function input2(){
-//     console.log("got clicked")
-// }
-
-// debugger- use to find the flow to detect error
