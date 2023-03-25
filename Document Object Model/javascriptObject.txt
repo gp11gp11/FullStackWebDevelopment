@@ -41,3 +41,13 @@ Methods:
  call Method:
 
 bellboy.moveSuitcase();
+
+// Higher order function
+// template ^
+// $0./addEventListener/(input1,input2);
+
+// function input2(){
+//     console.log("got clicked")
+// }
+
+// debugger- use to find the flow to detect error
