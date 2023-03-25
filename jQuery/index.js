@@ -21,3 +21,15 @@ $("input").keypress(function(evemt){
 $("h1").on("mouseover",function(){
     $("h1").css("color", "purple");
 });
+
+// Adding and removing element using jQuery
+
+$("h1").before("<button>new</button>");
+
+$("h1").after("<button>new</button>");
+
+$("h1").prepend("<button>new</button>");
+
+$("h1").append("<button>new</button>");
+
+$("button").remove();
