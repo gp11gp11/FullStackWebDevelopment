@@ -44,10 +44,20 @@ bellboy.moveSuitcase();
 
 // Higher order function
 // template ^
-// $0./addEventListener/(input1,input2);
+// $0./addEventListener/("keypress",respondToKey(event));
 
-// function input2(){
-//     console.log("got clicked")
+// function respondToKey(event){
+//     console.log("key pressed")
 // }
 
 // debugger- use to find the flow to detect error
+
+
+                                     Callback function
+                                            ^
+document.addEventListener("keypress",respondToKey(event));
+
+ function respondToKey(event){
+    console.log("key pressed")
+ }
+
