@@ -42,13 +42,13 @@ Methods:
 
 bellboy.moveSuitcase();
 
-// Higher order function
-// template ^
-// $0./addEventListener/("keypress",respondToKey(event));
+ Higher order function
+         ^
+ $0./addEventListener/("keypress",respondToKey(event));
 
-// function respondToKey(event){
-//     console.log("key pressed")
-// }
+ function respondToKey(event){
+     console.log("key pressed")
+ }
 
 // debugger- use to find the flow to detect error
 

@@ -19,3 +19,6 @@ div .container-fluid
     hello world
 
 .container-fluid #title {color: red;}//hierarchi read from right to left// work only parent child situation
+
+
+

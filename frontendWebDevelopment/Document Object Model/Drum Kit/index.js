@@ -8,18 +8,6 @@
 // Added eventlistner to button to get noticed when clicked
 var noOfDrumButons = document.querySelectorAll(".drum").length;
 
- // Adding animation when clicked
- function buttonAnimation(currentKey) {
-    var activeButton = document.querySelector("."+ currentKey);
-    activeButton.classList.add("pressed");
-    setTimeout (function(){
-        activeButton.classList.remove("pressed");
-    },100);
-}
-
-
-
-
 for(var i = 0; i<noOfDrumButons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function ()  {//adding eventlistner to each button
     var buttonInnerHtml = this.innerHTML;
@@ -104,6 +92,15 @@ for(var i = 0; i<noOfDrumButons; i++) {
 
     } );
     
+ // Adding animation when clicked
+ function buttonAnimation(currentKey) {
+    var activeButton = document.querySelector("."+ currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout (function(){
+        activeButton.classList.remove("pressed");
+    },100);
+}
+
 
 
 
