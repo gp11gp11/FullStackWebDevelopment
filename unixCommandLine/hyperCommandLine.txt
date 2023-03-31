@@ -1,0 +1,34 @@
+hyper.is
+after installation (check in command line) -> echo $SHELL -> will see bin/bash
+
+The Command Line
+
+taking example of egg - inner yoke can be considered as kernel, interfer with the hardward
+                        outer skell can be considered as shell, where user interact with the system, its of two type - GUI(GRAPHICAL USER INTERFACE)  OR COMMMAND LINE INTERFACE(CLI)
+
+We are using Bash(bourne again shell), which is shell, shell provide speed and control
+
+mkdir file_name (to create new directory)
+ls -a (show all hiddenn files, hidden files start with .file_name)
+
+hackertyper.com(website for fun)
+
+ls (list)- show all files and foler in the folder
+cd (change directory)- 
+cd ~ - will take u to root directory
+cd .. - back one level 
+
+to move curser fast - click option then move arrow key
+to move to begining - ctrl+a , to move back - ctrl+e
+to clear command - ctrl+u
+touch file_name - to create new file
+open application_name file_name - to open file in an application
+
+rm file_name - remove file
+pwd - show the path in u are
+rm * - remove all file in the folder
+rm -r folder_name - remove folder and its child
+rm -rf --no-perserve-root/ - delete from disk unrecoverable, f flag- force
+
+www.learnenough.com(website to learn command line)
+
