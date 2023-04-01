@@ -1,0 +1,19 @@
+node js help to create backend with javascript
+help to directly interact with user system or server
+
+node file.js - to run js on node
+
+repl- read evaluate print loop- help to run code in bit chunk
+
+MacBook-Air:introToNode godsonprakasia$ node
+Welcome to Node.js v18.15.0.
+Type ".help" for more information.
+> console.log("hello");
+hello
+undefined
+> 2+4
+6
+
+.exit or ctrl+c - to exit
+
+nodejs.org //node documentation
