@@ -9,8 +9,8 @@ app.get("/", function(req, res){
     
 app.post("/", function(req, res){
     // console.log(req.body.num1);// get in text 
-    var num1 = Number(req.body.height);
-    var num2 = Number(req.body.weight);
+    var num1 = parseFloat(req.body.height);
+    var num2 = parseFloat(req.body.weight);
     var result = (num2/(num1*num1))*10000;
     
     res.send("your bmi is "+ Math.floor(result));// to get the post - npm install body-parser
