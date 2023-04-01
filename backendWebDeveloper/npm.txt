@@ -1,0 +1,3 @@
+node package manager - external modules can be run in node using npm
+
+npmjs.com(to look for packages)
