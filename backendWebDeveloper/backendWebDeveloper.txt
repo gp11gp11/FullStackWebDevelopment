@@ -1,2 +1,14 @@
+tools and technology used in backend:
 node js
+server
+database
+php 
+ruby
+java
+
+
+hide business logic
+reduce loding time
+
+
 
