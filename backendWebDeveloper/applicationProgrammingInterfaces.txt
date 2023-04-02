@@ -1,0 +1,10 @@
+APIS
+
+endpoints - to access it http://jokes
+path - specific http://jokes/programmers         ^key   ^value
+parameters - specific http://jokes/programmers?contains=debug&key=""
+authentication- to track of user to monitor use
+
+key - create a key, authenticated by 
+
+postman.com /to test APIS
