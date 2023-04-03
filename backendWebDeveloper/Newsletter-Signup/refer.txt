@@ -1,0 +1,7 @@
+mailchimp api used
+
+Heroku- service provider-
+free to signup -> nodejs 
+
+in app.js change listen ->create Procfile -> add to git ->deloy the app(heroku create - interminal)-> push git to heruko-> Done
+
