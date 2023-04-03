@@ -1,0 +1,23 @@
+git add . // to add all files to stage 
+git commit -m "text" // to add the files in stage to git in local repo
+git push // to push to git servers
+git status //  show files yet to be staged
+git diff file_name// show diff from commited and uncommited state of file
+git checkout state_no// to move that state
+git remote add origin githubRepo_link // origin refer to the repo
+git remote // show all remote names
+
+gitignore // to hide screte file api keys// files added to gitignore is hidden
+# to comment
+*.txt // will hide all files with .txt extension
+
+github/gitignore- has premade default gitignore files in integrity
+
+//cloning
+git clone url
+
+//branching and merge 
+git branch branchName //create a new branch with name branchName
+git merge branchName // merge with branch with name branchName from the current branch
+git branch // shows all branchs
+git checkout branchName
