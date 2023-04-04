@@ -1,0 +1,34 @@
+Scope
+
+different from language to language
+
+for js-
+
+var y ; //global variable
+function a {
+    var x = 2;//local variable
+    console.log(x);
+    console.log(y);
+    if (true){
+        var z ;
+    }
+    console.log(z);
+}
+console.log(x); //cause error will not be able to call globally
+console.log(y);
+
+function(){
+    //All are local
+    var x;
+    let y;
+    const z = 4 ;
+}
+// global
+var x;
+let y;
+const z = 4 ;
+
+if/else/for/while
+var x;//global
+let y;//local
+const z = 4 ;//local
