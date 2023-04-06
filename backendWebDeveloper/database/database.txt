@@ -1,0 +1,33 @@
+to store data-> choosing correct database
+
+two type:
+
+structured query language -sql              NOSQL-  not only structured query language
+mysql                                           mongoDB
+
+postgreSQL                                  redis
+ 
+
+ structural differenc:
+
+ form grid structure                        stored as json object notation
+ put NULL in empty cell
+ relational                                 non relational
+used when relations involved                one to many
+
+scalabiiity
+
+less                                        more
+
+more mature                                 shiny and new
+table structure                             document structure
+require a schema                            more flexible to changes
+great with relationship                     not great with complex relationship
+scalable veritically                        scalable horizontally
+
+
+with every database(crud)
+create
+read
+update
+destroy
