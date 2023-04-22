@@ -149,3 +149,16 @@ shopDB> db.products.find()
   { _id: 2, name: 'Pencil', price: 5.2, stock: 12 }
 ]
 shopDB> 
+
+delete 
+
+shopDB> db.users.deleteMany({_id=2})
+... 
+... 
+shopDB> db.users.deleteMany({_id:2})
+{ acknowledged: true, deletedCount: 0 }
+shopDB> db.products.find()
+[
+  { _id: 1, name: 'Pen', price: 1.2, stock: 32 },
+  { _id: 2, name: 'Pencil', price: 5.2, stock: 12 }
+]
