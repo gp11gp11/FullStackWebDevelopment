@@ -1,0 +1,34 @@
+for mac 
+download mongoDB
+in terminal - sudo mv file_path /usr/local/mongodb 
+open /usr/local/mongodb
+cd ~
+touch .bash_profile
+ls -a 
+open .
+vim .bash_profile
+i // to INSERT
+export PATH=$PATH:/usr/local/mongodb/bin
+esc
+:wq!
+mkdir -p /data/db 
+
+
+or
+
+
+install brew
+brew tap mongodb/brew
+brew install mongodb-community@6.0
+sudo mkdir -p /System/Volumes/Data/data/db
+sudo chown -R `id -un` /System/Volumes/Data/data/db
+sudo mongod --dbpath /System/Volumes/Data/data/db
+alias mongod='sudo mongod --dbpath /System/Volumes/Data/data/db'
+
+After installation 
+-> mongoDB documentation
+mongoDB CRUD operation
+
+terminal-> mongod //running mongodb server
+another tab-> mongosh or mongo//accessing mongodb shell
+
